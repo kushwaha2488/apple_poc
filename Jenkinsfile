@@ -25,7 +25,7 @@ pipeline{
 		stage('Push Image to DockerHub') {
 
 			steps {
-				sh 'docker push amitendra/techm_mihan:v1'
+				sh 'docker push amitendra/techm_amit:v1'
 			}
 		}
 	}
