@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: test-app
-        image: amitendra/techm_amit:v1
+        image: amitendra/techm_amit:v2
         ports:
         - containerPort: 80
