@@ -11,7 +11,7 @@ pipeline{
 		stage('Build Docker Image') {
 
 			steps {
-				sh 'docker build -t amitendra/techm_mihan:v1 .'
+				sh 'docker build -t amitendra/techm_amit:v1 .'
 			}
 		}
 
